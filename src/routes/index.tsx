@@ -161,7 +161,7 @@ function Home() {
             Ready to stop working around the pain?
           </h2>
           <p className="mx-auto mt-4 max-w-md text-[var(--cream)]/80">
-            Sessions run Monday through Friday at our Northgate clinic, with
+            Sessions run Monday through Sunday with
             same-week availability most weeks.
           </p>
           <Link
