@@ -1,0 +1,37 @@
+import { Link } from '@tanstack/react-router'
+
+export function Footer() {
+  return (
+    <footer className="border-t border-[var(--ink)]/10 bg-[var(--cream-dark)]">
+      <div className="mx-auto grid max-w-6xl gap-10 px-6 py-14 md:grid-cols-3">
+        <div>
+          <p className="font-display text-lg text-[var(--ink)]">Ace Body Physiotherapy &amp; Wellness</p>
+          <p className="mt-3 max-w-xs text-sm leading-relaxed text-[var(--ink-soft)]">
+            Hands-on physiotherapy and movement rehabilitation, guided by
+            evidence and tailored to how you actually live and move.
+          </p>
+        </div>
+        <div className="text-sm text-[var(--ink-soft)]">
+          <p className="mb-3 font-semibold text-[var(--ink)]">Visit</p>
+          <p>14/2 Rosebank Terrace</p>
+          <p>Northgate, Auckland 0629</p>
+          <p className="mt-3">Mon–Fri, 8am–6pm</p>
+        </div>
+        <div className="text-sm text-[var(--ink-soft)]">
+          <p className="mb-3 font-semibold text-[var(--ink)]">Get in touch</p>
+          <p>hello@acebodyphysio.co.nz</p>
+          <p>(09) 555 0142</p>
+          <Link
+            to="/booking"
+            className="mt-4 inline-block font-semibold text-[var(--clay-dark)] hover:underline"
+          >
+            Book an appointment &rarr;
+          </Link>
+        </div>
+      </div>
+      <div className="border-t border-[var(--ink)]/10 px-6 py-5 text-center text-xs text-[var(--ink-soft)]">
+        &copy; {new Date().getFullYear()} Ace Body Physiotherapy &amp; Wellness. All rights reserved.
+      </div>
+    </footer>
+  )
+}
