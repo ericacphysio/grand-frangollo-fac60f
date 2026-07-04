@@ -13,14 +13,13 @@ export function Footer() {
         </div>
         <div className="text-sm text-[var(--ink-soft)]">
           <p className="mb-3 font-semibold text-[var(--ink)]">Visit</p>
-          <p>14/2 Rosebank Terrace</p>
-          <p>Northgate, Auckland 0629</p>
-          <p className="mt-3">Mon–Fri, 8am–6pm</p>
+          <p>Shop 1/260 Belmore Rd, Riverwood</p>
+          <p>New South Wales, Australia 2150</p>
         </div>
         <div className="text-sm text-[var(--ink-soft)]">
           <p className="mb-3 font-semibold text-[var(--ink)]">Get in touch</p>
-          <p>hello@acebodyphysio.co.nz</p>
-          <p>(09) 555 0142</p>
+          <p>ericacphysio@gmail.com</p>
+          <p>(+61) 435 195 018</p>
           <Link
             to="/booking"
             className="mt-4 inline-block font-semibold text-[var(--clay-dark)] hover:underline"
