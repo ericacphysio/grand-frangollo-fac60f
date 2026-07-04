@@ -71,12 +71,7 @@ function About() {
           <div className="relative mx-auto max-w-sm">
             <div className="absolute -inset-3 -z-10 -rotate-2 rounded-[2rem] bg-[var(--clay)]/15" />
             <div className="overflow-hidden rounded-[1.75rem] border border-[var(--ink)]/10 shadow-xl">
-              <!-- <img
-                src="https://images.unsplash.com/photo-1622253692010-333f2da6031d?auto=format&fit=crop&w=900&q=80"
-                alt="Erica Chen assessing a patient's knee mobility in the treatment room"
-                className="aspect-[4/5] w-full object-cover"
-                loading="eager"
-              /> -->
+              
             </div>
           </div>
         </div>
