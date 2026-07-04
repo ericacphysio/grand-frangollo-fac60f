@@ -40,14 +40,14 @@ function About() {
             Erica Chen
           </h1>
           <p className="mt-3 font-display text-xl italic text-[var(--sage)]">
-            Registered Physiotherapist, MPhty
+            Registered Physiotherapist
           </p>
           <p className="mt-6 max-w-xl text-lg leading-relaxed text-[var(--ink-soft)]">
-            Erica founded Ace Body Physiotherapy &amp; Wellness in 2015 after
-            eight years split between a Wellington sports medicine clinic and
-            the touring physio team for a national rugby academy. She has
-            spent her career on one question: what actually gets people back
-            to the movement they miss, and how fast can that happen safely.
+            Erica is a motivated and dedicated physiotherapist who has worked in a 
+            variety of clinical settings. She has also undertaken additional training 
+            in Dry Needling and is passionate about improving people's quality of life. 
+            She finds immense satisfaction in assisting people in returning to their 
+            interests and in accomplishing their goals.    
           </p>
           <p className="mt-4 max-w-xl leading-relaxed text-[var(--ink-soft)]">
             Today she treats everyone from weekend hikers with cranky knees to
