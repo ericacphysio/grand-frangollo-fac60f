@@ -13,16 +13,17 @@ const credentials = [
 
 const philosophy = [
   {
-    title: 'Explain the "why"',
-    copy: 'You should leave every session understanding what is actually going on in your body, not just what exercises to do.',
+    title: '🩹 Relieve',
+    copy: 'Reduce pain, manage injuries, and understand the cause of your symptoms.',
   },
   {
-    title: 'Load, don’t avoid',
-    copy: 'Rest rarely fixes tissue that needs to get stronger. Erica builds rehab around progressive loading, not blanket restriction.',
+    title: '💪 Restore',
+    copy: 'Improve mobility, strength, balance, and confidence with personalised rehabilitation.',
   },
   {
-    title: 'Measure what matters',
-    copy: 'Grip strength, range of motion, single-leg hop distance — real numbers tracked visit to visit, not vague check-ins.',
+    title: '🏃 Return',
+    copy: 'Whether your goal is to get back to work, sport, caring for your family, or simply 
+      living independently, we're here to help you return with confidence.',
   },
 ]
 
@@ -99,9 +100,10 @@ function About() {
       </section>
 
       <section className="mx-auto max-w-6xl px-6 py-20">
-        <p className="text-xs font-semibold uppercase tracking-[0.16em] text-[var(--clay-dark)]">How Erica works</p>
+        <p className="text-xs font-semibold uppercase tracking-[0.16em] text-[var(--clay-dark)]">Relieve. Restore. Return.</p>
         <h2 className="mt-2 max-w-lg font-display text-3xl text-[var(--ink)] sm:text-4xl">
-          Three principles behind every plan.
+          Pain can limit more than just movement—it can affect your confidence and quality of life. 
+          Our approach focuses on three key stages of recovery:
         </h2>
         <div className="mt-12 grid gap-6 md:grid-cols-3">
           {philosophy.map((item, i) => (
