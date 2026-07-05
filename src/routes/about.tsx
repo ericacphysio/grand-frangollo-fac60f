@@ -78,9 +78,6 @@ function About() {
       <section className="border-y border-[var(--ink)]/10 bg-[var(--cream-dark)]">
         <div className="mx-auto max-w-6xl px-6 py-16">
           <p className="text-xs font-semibold uppercase tracking-[0.16em] text-[var(--clay-dark)]">Training &amp; credentials</p>
-          <h2 className="mt-2 font-display text-3xl text-[var(--ink)] sm:text-4xl">
-            A decade of rehabbing the stubborn cases.
-          </h2>
           <div className="mt-10 grid gap-4 sm:grid-cols-2">
             {credentials.map((item, i) => (
               <div
