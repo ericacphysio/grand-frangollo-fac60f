@@ -122,9 +122,9 @@ function About() {
       <section className="mx-auto max-w-6xl px-6 pb-24">
         <div className="rounded-[2rem] border border-[var(--ink)]/10 bg-[var(--sage-light)]/40 px-8 py-12 sm:px-14">
           <p className="font-display text-2xl italic leading-snug text-[var(--ink)] sm:text-3xl">
-            &ldquo;I don't think of rehab as getting back to baseline. I think
-            of it as finding out what your body can actually handle, then
-            building past the old baseline.&rdquo;
+            &ldquo;I believe motion is lotion, but not all movement is created equal. The right movement, 
+            at the right time, is one of the most powerful tools we have to reduce pain, build strength, 
+            restore confidence, and help you get back to doing what matters most.&rdquo;
           </p>
           <p className="mt-6 text-sm font-semibold uppercase tracking-[0.16em] text-[var(--sage)]">
             Erica Chen, Founder &amp; Lead Physiotherapist
