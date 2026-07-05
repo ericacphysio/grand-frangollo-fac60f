@@ -54,7 +54,7 @@ function About() {
             move with confidence, return to the activities they enjoy, and improve their 
             overall quality of life.
           </p>
-          <p className="mt-4 max-w-xl leading-relaxed text-[var(--ink-soft)]">
+          <p className="mt-6 max-w-xl leading-relaxed text-[var(--ink-soft)]">
             Outside of the clinic, Erica enjoys staying active through badminton, hiking, 
             and Wing Chun. Her love of movement and healthy living complements her approach 
             to physiotherapy, allowing her to better understand and support her clients in 
