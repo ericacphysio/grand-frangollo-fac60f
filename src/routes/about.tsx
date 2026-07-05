@@ -22,8 +22,7 @@ const philosophy = [
   },
   {
     title: '🏃 Return',
-    copy: 'Whether your goal is to get back to work, sport, caring for your family, or simply 
-      living independently, we're here to help you return with confidence.',
+    copy: 'Whether your goal is to get back to work, sport, caring for your family, or simply living independently, we\'re here to help you return with confidence.',
   },
 ]
 
