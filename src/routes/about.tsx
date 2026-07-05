@@ -41,19 +41,24 @@ function About() {
             Registered Physiotherapist
           </p>
           <p className="mt-6 max-w-xl text-lg leading-relaxed text-[var(--ink-soft)]">
-            Erica is a motivated and dedicated physiotherapist who has worked in a 
-            variety of clinical settings. She has also undertaken additional training 
-            in Dry Needling and is passionate about improving people's quality of life. 
-            She finds immense satisfaction in assisting people in returning to their 
-            interests and in accomplishing their goals.    
+            Erica is a dedicated and compassionate physiotherapist with experience across a 
+            broad range of clinical settings, including hospitals, private practice, 
+            residential aged care, and the NDIS. She has worked with clients of all ages, 
+            helping individuals recover from musculoskeletal and sporting injuries, improve 
+            mobility, regain independence, and achieve meaningful functional goals.
+          </p>
+          <p className="mt-6 max-w-xl text-lg leading-relaxed text-[var(--ink-soft)]">
+            Committed to ongoing professional development, Erica has completed additional 
+            training in Dry Needling and enjoys combining evidence-based practice with a 
+            personalised approach to care. She is passionate about empowering people to 
+            move with confidence, return to the activities they enjoy, and improve their 
+            overall quality of life.
           </p>
           <p className="mt-4 max-w-xl leading-relaxed text-[var(--ink-soft)]">
-            Today she treats everyone from weekend hikers with cranky knees to
-            competitive powerlifters chasing a total, and post-operative
-            patients rebuilding strength one honest rep at a time. Her
-            approach blends precise manual therapy with a strength coach's
-            eye for loading tissue correctly, so progress holds up outside
-            the clinic, not just on the table.
+            Outside of the clinic, Erica enjoys staying active through badminton, hiking, 
+            and Wing Chun. Her love of movement and healthy living complements her approach 
+            to physiotherapy, allowing her to better understand and support her clients in 
+            achieving their own health and fitness goals.
           </p>
           <div className="mt-8 flex flex-wrap gap-4">
             <Link
