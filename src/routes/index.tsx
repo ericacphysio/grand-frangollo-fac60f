@@ -40,7 +40,7 @@ function Home() {
         <div className="mx-auto grid max-w-6xl gap-10 px-6 pb-20 pt-16 md:grid-cols-12 md:gap-6 md:pb-28 md:pt-24">
           <div className="reveal md:col-span-6 md:pt-6">
             <p className="mb-5 inline-flex items-center gap-2 rounded-full border border-[var(--clay)]/30 bg-[var(--sage-light)]/40 px-4 py-1.5 text-xs font-semibold uppercase tracking-[0.16em] text-[var(--sage)]">
-              Northgate, Auckland
+              Sydney, Australia
             </p>
             <h1 className="font-display text-5xl leading-[1.05] text-[var(--ink)] sm:text-6xl">
               Move without
