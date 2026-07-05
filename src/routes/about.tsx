@@ -7,10 +7,8 @@ export const Route = createFileRoute('/about')({
 })
 
 const credentials = [
-  'Master of Physiotherapy Practice, University of Otago',
-  'Postgraduate Certificate in Musculoskeletal Physiotherapy',
-  'Certified Dry Needling Practitioner, Physiotherapy New Zealand',
-  'Strength & Conditioning Coach, ASCA Level 1',
+  'Bachelor of Physiotherapy',
+  'Dry Needling Level 2'
 ]
 
 const philosophy = [
