@@ -17,109 +17,219 @@ function Services() {
     <div className="min-h-screen bg-[var(--cream)]">
       <Nav />
 
-      <section className="mx-auto max-w-6xl px-6 pb-8 pt-14">
-        Our Services
-🏆 Achieve Your Goals
-Rehabilitation that gets you moving forward.
+     <section class="services">
+  <div class="container">
 
-Whether your goal is returning to sport, getting back to work, walking comfortably, or simply being able to enjoy everyday activities again, we can help you work towards it.
+    <header class="section-header">
+      <h2>Our Services</h2>
+    </header>
 
-Post-Injury Rehabilitation
+    <!-- Achieve Your Goals -->
+    <section class="service-category">
+      <h3>🏆 Achieve Your Goals</h3>
+      <p class="category-intro">
+        Rehabilitation that gets you moving forward.
+      </p>
 
-Recover from injury with a structured rehabilitation program designed around your stage of recovery.
+      <p>
+        Whether your goal is returning to sport, getting back to work,
+        walking comfortably, or simply being able to enjoy everyday
+        activities again, we can help you work towards it.
+      </p>
 
-Treatment may focus on:
+      <article class="service">
+        <h4>Post-Injury Rehabilitation</h4>
+        <p>
+          Recover from injury with a structured rehabilitation program
+          designed around your stage of recovery.
+        </p>
 
-Restoring movement and flexibility
-Rebuilding strength and stability
-Improving coordination and function
-Returning to everyday activities
-Progressive return to work, exercise, or sport
-Post-Surgical Rehabilitation
+        <p>Treatment may focus on:</p>
+        <ul>
+          <li>Restoring movement and flexibility</li>
+          <li>Rebuilding strength and stability</li>
+          <li>Improving coordination and function</li>
+          <li>Returning to everyday activities</li>
+          <li>Progressive return to work, exercise, or sport</li>
+        </ul>
+      </article>
 
-Support your recovery following surgery with personalised physiotherapy.
+      <article class="service">
+        <h4>Post-Surgical Rehabilitation</h4>
+        <p>
+          Support your recovery following surgery with personalised
+          physiotherapy.
+        </p>
 
-We can help you progressively restore:
+        <p>We can help you progressively restore:</p>
+        <ul>
+          <li>Mobility and range of movement</li>
+          <li>Strength and physical function</li>
+          <li>Confidence with movement</li>
+          <li>Everyday independence</li>
+          <li>Safe return to your normal activities</li>
+        </ul>
+      </article>
 
-Mobility and range of movement
-Strength and physical function
-Confidence with movement
-Everyday independence
-Safe return to your normal activities
-Exercise Rehabilitation
+      <article class="service">
+        <h4>Exercise Rehabilitation</h4>
+        <p>
+          Build a stronger, more capable body through personalised exercise.
+        </p>
 
-Build a stronger, more capable body through personalised exercise.
+        <p>
+          Your program can be tailored to your abilities and progressively
+          adjusted as you improve.
+        </p>
+      </article>
+    </section>
 
-Your program can be tailored to your abilities and progressively adjusted as you improve.
+    <!-- Conquer Your Pain -->
+    <section class="service-category">
+      <h3>💙 Conquer Your Pain</h3>
+      <p class="category-intro">
+        Hands-on care and strategies to help you move more comfortably.
+      </p>
 
-💙 Conquer Your Pain
-Hands-on care and strategies to help you move more comfortably.
+      <p>
+        Pain can affect how you move, how you sleep, how you work, and how
+        you participate in the things you enjoy.
+      </p>
 
-Pain can affect how you move, how you sleep, how you work, and how you participate in the things you enjoy.
+      <p>
+        At Ace Body Physiotherapy &amp; Wellness, we use a combination of
+        manual therapy, exercise, education, and pain-management strategies
+        to help you manage your symptoms and improve your movement.
+      </p>
 
-At Ace Body Physiotherapy & Wellness, we use a combination of manual therapy, exercise, education, and pain-management strategies to help you manage your symptoms and improve your movement.
+      <article class="service">
+        <h4>Manual Therapy</h4>
+        <p>
+          Our physiotherapists provide hands-on treatment where appropriate
+          to help:
+        </p>
 
-Manual Therapy
+        <ul>
+          <li>Manage pain</li>
+          <li>Improve joint and soft-tissue mobility</li>
+          <li>Reduce muscle tension</li>
+          <li>Support comfortable movement</li>
+          <li>Complement your rehabilitation program</li>
+        </ul>
+      </article>
 
-Our physiotherapists provide hands-on treatment where appropriate to help:
+      <article class="service">
+        <h4>Dry Needling</h4>
+        <p>
+          Dry needling uses fine, sterile needles to target specific muscles
+          and areas of muscular tension.
+        </p>
 
-Manage pain
-Improve joint and soft-tissue mobility
-Reduce muscle tension
-Support comfortable movement
-Complement your rehabilitation program
-Dry Needling
+        <p>
+          It may be incorporated into your treatment plan to assist with the
+          management of muscle pain, tightness, and movement restrictions.
+        </p>
 
-Dry needling uses fine, sterile needles to target specific muscles and areas of muscular tension.
+        <p>
+          Your physiotherapist will assess whether dry needling is
+          appropriate for you and discuss the treatment with you beforehand.
+        </p>
+      </article>
+    </section>
 
-It may be incorporated into your treatment plan to assist with the management of muscle pain, tightness, and movement restrictions.
+    <!-- Elevate Your Wellbeing -->
+    <section class="service-category">
+      <h3>🌿 Elevate Your Wellbeing</h3>
+      <p class="category-intro">
+        Build strength, balance and confidence for everyday life.
+      </p>
 
-Your physiotherapist will assess whether dry needling is appropriate for you and discuss the treatment with you beforehand.
+      <p>
+        Physiotherapy isn't only about recovering from an injury. Maintaining
+        your physical capabilities can help you stay active, independent,
+        and confident in your everyday life.
+      </p>
 
-🌿 Elevate Your Wellbeing
-Build strength, balance and confidence for everyday life.
+      <article class="service">
+        <h4>Falls Prevention &amp; Balance Rehabilitation</h4>
 
-Physiotherapy isn't only about recovering from an injury. Maintaining your physical capabilities can help you stay active, independent, and confident in your everyday life.
+        <p>
+          Feeling unsteady or worried about falling can affect your
+          confidence and independence.
+        </p>
 
-Falls Prevention & Balance Rehabilitation
+        <p>
+          Our falls prevention programs focus on improving your ability to
+          move safely and confidently through:
+        </p>
 
-Feeling unsteady or worried about falling can affect your confidence and independence.
+        <ul>
+          <li>Balance and stability training</li>
+          <li>Lower-limb strengthening</li>
+          <li>Walking and mobility exercises</li>
+          <li>Coordination training</li>
+          <li>Gait assessment and rehabilitation</li>
+          <li>Movement strategies</li>
+          <li>Falls-risk education</li>
+          <li>Building confidence with everyday activities</li>
+        </ul>
 
-Our falls prevention programs focus on improving your ability to move safely and confidently through:
+        <p>
+          Whether you've experienced a fall or simply feel less steady on
+          your feet, we can help you work towards greater strength, balance,
+          confidence, and independence.
+        </p>
+      </article>
+    </section>
 
-Balance and stability training
-Lower-limb strengthening
-Walking and mobility exercises
-Coordination training
-Gait assessment and rehabilitation
-Movement strategies
-Falls-risk education
-Building confidence with everyday activities
+    <!-- Our Approach -->
+    <section class="our-approach">
+      <header class="section-header">
+        <h2>Our Approach</h2>
+        <p>Personalised. Hands-On. Goal-Focused.</p>
+      </header>
 
-Whether you've experienced a fall or simply feel less steady on your feet, we can help you work towards greater strength, balance, confidence, and independence.
+      <p>
+        We believe the best physiotherapy is centred around you.
+      </p>
 
-Our Approach
-Personalised. Hands-On. Goal-Focused.
+      <article class="approach-step">
+        <h3><span>01</span> — Understand</h3>
+        <p>
+          We listen to your concerns, understand your history, assess your
+          movement, and identify what is affecting your ability to do what
+          matters to you.
+        </p>
+      </article>
 
-We believe the best physiotherapy is centred around you.
+      <article class="approach-step">
+        <h3><span>02</span> — Treat</h3>
+        <p>
+          Where appropriate, treatment may include manual therapy, dry
+          needling, exercise, mobility work, and pain-management strategies.
+        </p>
+      </article>
 
-01 — Understand
+      <article class="approach-step">
+        <h3><span>03</span> — Rehabilitate</h3>
+        <p>
+          We develop a personalised program to progressively improve your
+          strength, mobility, balance, and physical function.
+        </p>
+      </article>
 
-We listen to your concerns, understand your history, assess your movement, and identify what is affecting your ability to do what matters to you.
+      <article class="approach-step">
+        <h3><span>04</span> — Empower</h3>
+        <p>
+          We give you the knowledge and tools to understand your body,
+          manage your condition, and confidently take control of your
+          recovery.
+        </p>
+      </article>
+    </section>
 
-02 — Treat
-
-Where appropriate, treatment may include manual therapy, dry needling, exercise, mobility work, and pain-management strategies.
-
-03 — Rehabilitate
-
-We develop a personalised program to progressively improve your strength, mobility, balance, and physical function.
-
-04 — Empower
-
-We give you the knowledge and tools to understand your body, manage your condition, and confidently take control of your recovery.
-      </section>
-
+  </div>
+</section>
       <Footer />
     </div>
   )
