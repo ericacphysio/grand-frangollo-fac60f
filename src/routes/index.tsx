@@ -120,9 +120,7 @@ function Home() {
             {services.map((service, i) => (
               <div
                 key={service.title}
-                className={`reveal rounded-2xl border border-[var(--ink)]/10 bg-[var(--cream)] p-7 transition-shadow hover:shadow-md ${
-                  i % 3 === 1 ? 'sm:translate-y-6' : ''
-                }`}
+                className={`reveal rounded-2xl border border-[var(--ink)]/10 bg-[var(--cream)] p-7 transition-shadow hover:shadow-md`}
                 style={{ animationDelay: `${i * 90}ms` }}
               >
                 <h3 className="font-display text-xl text-[var(--ink)]">{service.title}</h3>
