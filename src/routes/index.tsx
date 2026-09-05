@@ -43,7 +43,7 @@ function Home() {
         Sydney, Australia
       </p>
 
-      <h3 className="font-display text-5xl leading-[1.05] text-[var(--ink)] sm:text-6xl">
+      <h1 className="font-display text-5xl leading-[1.05] text-[var(--ink)] sm:text-6xl">
         Achieve your goals.
         <br />
         Conquer your pain.
