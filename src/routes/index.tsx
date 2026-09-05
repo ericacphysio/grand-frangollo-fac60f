@@ -36,28 +36,50 @@ function Home() {
     <div className="min-h-screen bg-[var(--cream)]">
       <Nav />
 
-      <section className="relative overflow-hidden">
-        <div className="mx-auto grid max-w-6xl gap-10 px-6 pb-20 pt-16 md:grid-cols-12 md:gap-6 md:pb-28 md:pt-24">
-          <div className="reveal md:col-span-6 md:pt-6">
-            <p className="mb-5 inline-flex items-center gap-2 rounded-full border border-[var(--clay)]/30 bg-[var(--sage-light)]/40 px-4 py-1.5 text-xs font-semibold uppercase tracking-[0.16em] text-[var(--sage)]">
-              Sydney, Australia
-            </p>
-            <h1 className="font-display text-5xl leading-[1.05] text-[var(--ink)] sm:text-6xl">
-              
-              <br />
-              <span className="italic text-[var(--clay-dark)]"></span>
-            </h1>
-            <p className="mt-6 max-w-md text-lg leading-relaxed text-[var(--ink-soft)]">
-              
-            </p>
-            <div className="mt-9 flex flex-wrap items-center gap-4">
-              <Link
-                to="/booking"
-                className="rounded-full bg-[var(--clay)] px-7 py-3.5 font-semibold text-[var(--cream)] shadow-[0_10px_30px_-12px_rgba(143,65,40,0.55)] transition-transform hover:-translate-y-0.5 hover:bg-[var(--clay-dark)]"
-              >
-                Book your first visit
-              </Link>
-              <Link
+     <section className="relative overflow-hidden">
+  <div className="mx-auto grid max-w-6xl gap-10 px-6 pb-20 pt-16 md:grid-cols-12 md:gap-6 md:pb-28 md:pt-24">
+    <div className="reveal md:col-span-6 md:pt-6">
+      <p className="mb-5 inline-flex items-center gap-2 rounded-full border border-[var(--clay)]/30 bg-[var(--sage-light)]/40 px-4 py-1.5 text-xs font-semibold uppercase tracking-[0.16em] text-[var(--sage)]">
+        Sydney, Australia
+      </p>
+
+      <h1 className="font-display text-5xl leading-[1.05] text-[var(--ink)] sm:text-6xl">
+        Achieve your goals.
+        <br />
+        Conquer your pain.
+        <br />
+        <span className="italic text-[var(--clay-dark)]">
+          Elevate your wellbeing.
+        </span>
+      </h1>
+
+      <p className="mt-6 max-w-md text-lg leading-relaxed text-[var(--ink-soft)]">
+        Personalised physiotherapy to help you move better, recover stronger,
+        and live with confidence.
+      </p>
+
+      <p className="mt-4 max-w-md text-sm leading-relaxed text-[var(--ink-soft)]">
+        At Ace Body Physiotherapy & Wellness, we believe physiotherapy is
+        about more than treating an injury. It's about helping you return to
+        the activities you love, manage pain, build strength, improve your
+        movement, and maintain your independence.
+      </p>
+
+      <p className="mt-4 max-w-md text-sm leading-relaxed text-[var(--ink-soft)]">
+        Whether you're recovering from an injury or surgery, experiencing
+        persistent pain, concerned about falls, or looking to improve your
+        physical wellbeing, we're here to support you throughout your journey.
+      </p>
+
+      <div className="mt-9 flex flex-wrap items-center gap-4">
+        <Link
+          to="/booking"
+          className="rounded-full bg-[var(--clay)] px-7 py-3.5 font-semibold text-[var(--cream)] shadow-[0_10px_30px_-12px_rgba(143,65,40,0.55)] transition-transform hover:-translate-y-0.5 hover:bg-[var(--clay-dark)]"
+        >
+          Book your first visit
+        </Link>
+
+        <Link
                 to="/about"
                 className="rounded-full border border-[var(--ink)]/15 px-7 py-3.5 font-semibold text-[var(--ink)] transition-colors hover:border-[var(--clay)] hover:text-[var(--clay-dark)]"
               >
