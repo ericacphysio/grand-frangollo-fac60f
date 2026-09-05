@@ -43,14 +43,12 @@ function Home() {
               Sydney, Australia
             </p>
             <h1 className="font-display text-5xl leading-[1.05] text-[var(--ink)] sm:text-6xl">
-              Move without
+              
               <br />
-              <span className="italic text-[var(--clay-dark)]">flinching.</span>
+              <span className="italic text-[var(--clay-dark)]"></span>
             </h1>
             <p className="mt-6 max-w-md text-lg leading-relaxed text-[var(--ink-soft)]">
-              Ace Body Physiotherapy &amp; Wellness pairs hands-on manual
-              therapy with strength-based rehab, run by physiotherapist Erica
-              Chen and built around your actual life, not a textbook case.
+              
             </p>
             <div className="mt-9 flex flex-wrap items-center gap-4">
               <Link
@@ -68,16 +66,15 @@ function Home() {
             </div>
             <dl className="mt-14 grid max-w-md grid-cols-3 gap-6 border-t border-[var(--ink)]/10 pt-8">
               <div>
-                <dt className="font-display text-3xl text-[var(--clay-dark)]">11</dt>
+                <dt className="font-display text-3xl text-[var(--clay-dark)]">5</dt>
                 <dd className="mt-1 text-xs uppercase tracking-wide text-[var(--ink-soft)]">years in practice</dd>
               </div>
               <div>
-                <dt className="font-display text-3xl text-[var(--clay-dark)]">2,300+</dt>
+                <dt className="font-display text-3xl text-[var(--clay-dark)]">300+</dt>
                 <dd className="mt-1 text-xs uppercase tracking-wide text-[var(--ink-soft)]">patients treated</dd>
               </div>
               <div>
-                <dt className="font-display text-3xl text-[var(--clay-dark)]">4.9</dt>
-                <dd className="mt-1 text-xs uppercase tracking-wide text-[var(--ink-soft)]">average rating</dd>
+                
               </div>
             </dl>
           </div>
@@ -87,8 +84,8 @@ function Home() {
               <div className="absolute -inset-4 -z-10 rotate-2 rounded-[2rem] bg-[var(--sage-light)]" />
               <div className="overflow-hidden rounded-[1.75rem] border border-[var(--ink)]/10 shadow-xl">
                 <img
-                  src="https://images.unsplash.com/photo-1519824145371-296894a0daa9?auto=format&fit=crop&w=1000&q=80"
-                  alt="Physiotherapist guiding a patient through a shoulder mobility exercise in a bright treatment room"
+                  src=""
+                  alt=""
                   className="aspect-[4/5] w-full object-cover"
                   loading="eager"
                 />
