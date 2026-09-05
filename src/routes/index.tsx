@@ -48,9 +48,7 @@ function Home() {
         <br />
         Conquer your pain.
         <br />
-        <span className="italic text-[var(--clay-dark)]">
-          Elevate your wellbeing.
-        </span>
+        Elevate your wellbeing.
       </h1>
 
       <p className="mt-6 max-w-md text-lg leading-relaxed text-[var(--ink-soft)]">
